@@ -1,0 +1,1986 @@
+[2024-01-11 14:12:51 +0000] [711] [INFO] Starting gunicorn 21.2.0
+[2024-01-11 14:12:51 +0000] [711] [INFO] Listening at: http://0.0.0.0:8 (711)
+[2024-01-11 14:12:51 +0000] [711] [INFO] Using worker: sync
+[2024-01-11 14:12:51 +0000] [712] [INFO] Booting worker with pid: 712
+[2024-01-11 14:12:51 +0000] [713] [INFO] Booting worker with pid: 713
+[2024-01-11 14:12:51 +0000] [714] [INFO] Booting worker with pid: 714
+[2024-01-11 14:13:29 +0000] [711] [CRITICAL] WORKER TIMEOUT (pid:713)
+[2024-01-11 14:13:55 +0000] [713] [INFO] Worker exiting (pid: 713)
+[2024-01-11 14:13:55 +0000] [711] [CRITICAL] WORKER TIMEOUT (pid:714)
+[2024-01-11 14:13:56 +0000] [714] [INFO] Worker exiting (pid: 714)
+[2024-01-11 14:13:57 +0000] [711] [CRITICAL] WORKER TIMEOUT (pid:712)
+[2024-01-11 14:14:03 +0000] [712] [INFO] Worker exiting (pid: 712)
+[2024-01-11 14:14:04 +0000] [711] [ERROR] Worker (pid:712) exited with code 1
+[2024-01-11 14:14:04 +0000] [711] [ERROR] Worker (pid:712) exited with code 1.
+[2024-01-11 14:14:04 +0000] [711] [ERROR] Worker (pid:713) was sent SIGKILL! Perhaps out of memory?
+[2024-01-11 14:14:04 +0000] [711] [ERROR] Worker (pid:714) was sent SIGKILL! Perhaps out of memory?
+[2024-01-11 14:14:04 +0000] [718] [INFO] Booting worker with pid: 718
+[2024-01-11 14:14:04 +0000] [719] [INFO] Booting worker with pid: 719
+[2024-01-11 14:14:04 +0000] [720] [INFO] Booting worker with pid: 720
+[2024-01-11 14:14:21 +0000] [719] [INFO] Worker exiting (pid: 719)
+[2024-01-11 14:14:21 +0000] [718] [INFO] Worker exiting (pid: 718)
+[2024-01-11 14:14:21 +0000] [720] [INFO] Worker exiting (pid: 720)
+[2024-01-11 14:14:21 +0000] [711] [INFO] Handling signal: term
+[2024-01-11 14:15:02 +0000] [711] [ERROR] Worker (pid:718) was sent SIGKILL! Perhaps out of memory?
+[2024-01-11 14:15:02 +0000] [711] [INFO] Shutting down: Master
+[2024-01-11 14:15:02 +0000] [711] [ERROR] Worker (pid:719) was sent SIGKILL! Perhaps out of memory?
+[2024-01-11 14:15:02 +0000] [711] [ERROR] Worker (pid:720) was sent SIGKILL! Perhaps out of memory?
+[2024-01-11 14:15:21 +0000] [724] [INFO] Starting gunicorn 21.2.0
+[2024-01-11 14:15:21 +0000] [724] [INFO] Listening at: http://0.0.0.0:8 (724)
+[2024-01-11 14:15:21 +0000] [724] [INFO] Using worker: sync
+[2024-01-11 14:15:21 +0000] [725] [INFO] Booting worker with pid: 725
+[2024-01-11 14:15:21 +0000] [726] [INFO] Booting worker with pid: 726
+[2024-01-11 14:15:21 +0000] [727] [INFO] Booting worker with pid: 727
+[2024-01-11 14:15:48 +0000] [726] [INFO] Worker exiting (pid: 726)
+[2024-01-11 14:15:48 +0000] [724] [INFO] Handling signal: term
+[2024-01-11 14:15:48 +0000] [727] [INFO] Worker exiting (pid: 727)
+[2024-01-11 14:15:48 +0000] [725] [INFO] Worker exiting (pid: 725)
+[2024-01-11 14:15:48 +0000] [724] [ERROR] Worker (pid:726) was sent SIGTERM!
+[2024-01-11 14:15:48 +0000] [724] [ERROR] Worker (pid:727) was sent SIGTERM!
+[2024-01-11 14:15:48 +0000] [724] [INFO] Shutting down: Master
+[2024-01-11 14:16:08 +0000] [732] [INFO] Starting gunicorn 21.2.0
+[2024-01-11 14:16:08 +0000] [732] [INFO] Listening at: http://0.0.0.0:80 (732)
+[2024-01-11 14:16:08 +0000] [732] [INFO] Using worker: sync
+[2024-01-11 14:16:08 +0000] [733] [INFO] Booting worker with pid: 733
+[2024-01-11 14:16:09 +0000] [734] [INFO] Booting worker with pid: 734
+[2024-01-11 14:16:09 +0000] [735] [INFO] Booting worker with pid: 735
+Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Bad Request: /
+[2024-01-11 14:16:42 +0000] [732] [CRITICAL] WORKER TIMEOUT (pid:735)
+[2024-01-11 14:16:42 +0000] [735] [INFO] Worker exiting (pid: 735)
+[2024-01-11 14:16:42 +0000] [732] [ERROR] Worker (pid:735) exited with code 1
+[2024-01-11 14:16:42 +0000] [732] [ERROR] Worker (pid:735) exited with code 1.
+[2024-01-11 14:16:42 +0000] [739] [INFO] Booting worker with pid: 739
+Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Bad Request: /
+[2024-01-11 14:17:18 +0000] [732] [INFO] Handling signal: term
+[2024-01-11 14:17:18 +0000] [734] [INFO] Worker exiting (pid: 734)
+[2024-01-11 14:17:18 +0000] [739] [INFO] Worker exiting (pid: 739)
+[2024-01-11 14:17:18 +0000] [732] [ERROR] Worker (pid:734) was sent SIGTERM!
+[2024-01-11 14:17:18 +0000] [732] [ERROR] Worker (pid:739) was sent SIGTERM!
+[2024-01-11 14:17:24 +0000] [741] [INFO] Starting gunicorn 21.2.0
+[2024-01-11 14:17:24 +0000] [741] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2024-01-11 14:17:24 +0000] [741] [ERROR] Retrying in 1 second.
+[2024-01-11 14:17:25 +0000] [741] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2024-01-11 14:17:25 +0000] [741] [ERROR] Retrying in 1 second.
+[2024-01-11 14:17:26 +0000] [741] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2024-01-11 14:17:26 +0000] [741] [ERROR] Retrying in 1 second.
+Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '164.152.57.86:9112'. You may need to add '164.152.57.86' to ALLOWED_HOSTS.
+Bad Request: /
+[2024-01-11 14:17:27 +0000] [733] [INFO] Worker exiting (pid: 733)
+[2024-01-11 14:17:27 +0000] [741] [INFO] Listening at: http://0.0.0.0:80 (741)
+[2024-01-11 14:17:27 +0000] [741] [INFO] Using worker: sync
+[2024-01-11 14:17:27 +0000] [742] [INFO] Booting worker with pid: 742
+[2024-01-11 14:17:27 +0000] [743] [INFO] Booting worker with pid: 743
+[2024-01-11 14:17:27 +0000] [744] [INFO] Booting worker with pid: 744
+[2024-01-11 14:17:27 +0000] [732] [INFO] Shutting down: Master
+[2024-01-11 14:18:00 +0000] [741] [CRITICAL] WORKER TIMEOUT (pid:742)
+[2024-01-11 14:18:00 +0000] [742] [INFO] Worker exiting (pid: 742)
+[2024-01-11 14:18:00 +0000] [741] [ERROR] Worker (pid:742) exited with code 1
+[2024-01-11 14:18:00 +0000] [741] [ERROR] Worker (pid:742) exited with code 1.
+[2024-01-11 14:18:00 +0000] [745] [INFO] Booting worker with pid: 745
+[2024-01-11 14:18:19 +0000] [741] [INFO] Handling signal: term
+[2024-01-11 14:18:19 +0000] [743] [INFO] Worker exiting (pid: 743)
+[2024-01-11 14:18:19 +0000] [744] [INFO] Worker exiting (pid: 744)
+[2024-01-11 14:18:19 +0000] [741] [ERROR] Worker (pid:743) was sent SIGTERM!
+[2024-01-11 14:18:19 +0000] [745] [INFO] Worker exiting (pid: 745)
+[2024-01-11 14:18:19 +0000] [741] [ERROR] Worker (pid:744) was sent SIGTERM!
+[2024-01-11 14:18:19 +0000] [741] [ERROR] Worker (pid:745) was sent SIGTERM!
+[2024-01-11 14:18:19 +0000] [741] [INFO] Shutting down: Master
+[2024-01-11 15:45:12 +0000] [870] [INFO] Starting gunicorn 21.2.0
+[2024-01-11 15:45:12 +0000] [870] [INFO] Listening at: http://0.0.0.0:80 (870)
+[2024-01-11 15:45:12 +0000] [870] [INFO] Using worker: sync
+[2024-01-11 15:45:12 +0000] [871] [INFO] Booting worker with pid: 871
+[2024-01-11 15:45:12 +0000] [872] [INFO] Booting worker with pid: 872
+[2024-01-11 15:45:12 +0000] [873] [INFO] Booting worker with pid: 873
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/img/search.svg
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/img/icon-yes.svg
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/filters.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+[2024-01-11 17:50:39 +0000] [870] [INFO] Handling signal: int
+[2024-01-11 17:50:39 +0000] [871] [INFO] Worker exiting (pid: 871)
+[2024-01-11 17:50:39 +0000] [872] [INFO] Worker exiting (pid: 872)
+[2024-01-11 17:50:39 +0000] [873] [INFO] Worker exiting (pid: 873)
+[2024-01-11 17:50:40 +0000] [870] [INFO] Shutting down: Master
+[2024-01-11 22:44:15 +0000] [885] [INFO] Starting gunicorn 21.2.0
+[2024-01-11 22:44:15 +0000] [885] [INFO] Listening at: http://0.0.0.0:80 (885)
+[2024-01-11 22:44:15 +0000] [885] [INFO] Using worker: sync
+[2024-01-11 22:44:15 +0000] [886] [INFO] Booting worker with pid: 886
+[2024-01-11 22:44:15 +0000] [887] [INFO] Booting worker with pid: 887
+[2024-01-11 22:44:15 +0000] [888] [INFO] Booting worker with pid: 888
+[2024-01-11 22:44:40 +0000] [887] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 178, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = self._middleware_chain(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+[2024-01-11 22:44:44 +0000] [886] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 178, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = self._middleware_chain(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+[2024-01-11 22:44:50 +0000] [888] [ERROR] Error handling request /favicon.ico
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/gunicorn/workers/sync.py", line 178, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = self._middleware_chain(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/base.py", line 24, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 683, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 735, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/virtualenvs/news_dir-9puSTZi6/lib/python3.11/site-packages/django/urls/resolvers.py", line 728, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/news_dir/newspaper_project/urls.py", line 26
+    ]
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 25
+Not Found: /favicon.ico
+[2024-01-11 23:01:35 +0000] [886] [INFO] Worker exiting (pid: 886)
+[2024-01-11 23:01:35 +0000] [888] [INFO] Worker exiting (pid: 888)
+[2024-01-11 23:01:35 +0000] [887] [INFO] Worker exiting (pid: 887)
+[2024-01-11 23:01:35 +0000] [885] [INFO] Handling signal: term
+[2024-01-11 23:01:35 +0000] [885] [ERROR] Worker (pid:886) was sent SIGTERM!
+[2024-01-11 23:01:35 +0000] [885] [ERROR] Worker (pid:887) was sent SIGTERM!
+[2024-01-11 23:01:35 +0000] [885] [INFO] Shutting down: Master
+[2024-01-11 23:08:36 +0000] [906] [INFO] Starting gunicorn 21.2.0
+[2024-01-11 23:08:36 +0000] [906] [INFO] Listening at: http://0.0.0.0:80 (906)
+[2024-01-11 23:08:36 +0000] [906] [INFO] Using worker: sync
+[2024-01-11 23:08:36 +0000] [907] [INFO] Booting worker with pid: 907
+[2024-01-11 23:08:36 +0000] [908] [INFO] Booting worker with pid: 908
+[2024-01-11 23:08:36 +0000] [909] [INFO] Booting worker with pid: 909
+[2024-01-11 23:09:05 +0000] [906] [INFO] Handling signal: term
+[2024-01-11 23:09:05 +0000] [907] [INFO] Worker exiting (pid: 907)
+[2024-01-11 23:09:05 +0000] [908] [INFO] Worker exiting (pid: 908)
+[2024-01-11 23:09:05 +0000] [909] [INFO] Worker exiting (pid: 909)
+[2024-01-11 23:09:05 +0000] [906] [ERROR] Worker (pid:908) was sent SIGTERM!
+[2024-01-11 23:09:05 +0000] [906] [INFO] Shutting down: Master
+[2024-01-11 23:15:03 +0000] [919] [INFO] Starting gunicorn 21.2.0
+[2024-01-11 23:15:03 +0000] [919] [INFO] Listening at: http://0.0.0.0:80 (919)
+[2024-01-11 23:15:03 +0000] [919] [INFO] Using worker: sync
+[2024-01-11 23:15:03 +0000] [920] [INFO] Booting worker with pid: 920
+[2024-01-11 23:15:03 +0000] [921] [INFO] Booting worker with pid: 921
+[2024-01-11 23:15:03 +0000] [922] [INFO] Booting worker with pid: 922
+[2024-01-11 23:20:25 +0000] [920] [INFO] Worker exiting (pid: 920)
+[2024-01-11 23:20:25 +0000] [921] [INFO] Worker exiting (pid: 921)
+[2024-01-11 23:20:25 +0000] [919] [INFO] Handling signal: term
+[2024-01-11 23:20:25 +0000] [922] [INFO] Worker exiting (pid: 922)
+[2024-01-11 23:20:25 +0000] [919] [ERROR] Worker (pid:921) was sent SIGTERM!
+[2024-01-11 23:20:25 +0000] [919] [ERROR] Worker (pid:922) was sent SIGTERM!
+[2024-01-11 23:20:25 +0000] [919] [ERROR] Worker (pid:920) was sent SIGTERM!
+[2024-01-11 23:20:25 +0000] [919] [INFO] Shutting down: Master
+[2024-01-11 23:20:36 +0000] [939] [INFO] Starting gunicorn 21.2.0
+[2024-01-11 23:20:36 +0000] [939] [INFO] Listening at: http://0.0.0.0:80 (939)
+[2024-01-11 23:20:36 +0000] [939] [INFO] Using worker: sync
+[2024-01-11 23:20:36 +0000] [940] [INFO] Booting worker with pid: 940
+[2024-01-11 23:20:36 +0000] [941] [INFO] Booting worker with pid: 941
+[2024-01-11 23:20:36 +0000] [942] [INFO] Booting worker with pid: 942
+[2024-01-11 23:21:22 +0000] [939] [CRITICAL] WORKER TIMEOUT (pid:940)
+[2024-01-11 23:21:22 +0000] [940] [INFO] Worker exiting (pid: 940)
+[2024-01-11 23:21:22 +0000] [939] [ERROR] Worker (pid:940) exited with code 1
+[2024-01-11 23:21:22 +0000] [939] [ERROR] Worker (pid:940) exited with code 1.
+[2024-01-11 23:21:22 +0000] [944] [INFO] Booting worker with pid: 944
+[2024-01-11 23:29:16 +0000] [939] [CRITICAL] WORKER TIMEOUT (pid:944)
+[2024-01-11 23:29:16 +0000] [944] [INFO] Worker exiting (pid: 944)
+[2024-01-11 23:29:16 +0000] [939] [ERROR] Worker (pid:944) exited with code 1
+[2024-01-11 23:29:16 +0000] [939] [ERROR] Worker (pid:944) exited with code 1.
+[2024-01-11 23:29:16 +0000] [947] [INFO] Booting worker with pid: 947
+[2024-01-11 23:30:45 +0000] [941] [INFO] Worker exiting (pid: 941)
+[2024-01-11 23:30:45 +0000] [939] [INFO] Handling signal: term
+[2024-01-11 23:30:45 +0000] [947] [INFO] Worker exiting (pid: 947)
+[2024-01-11 23:30:45 +0000] [939] [ERROR] Worker (pid:941) was sent SIGTERM!
+[2024-01-11 23:30:45 +0000] [939] [ERROR] Worker (pid:947) was sent SIGTERM!
+[2024-01-11 23:30:54 +0000] [942] [INFO] Worker exiting (pid: 942)
+[2024-01-11 23:30:54 +0000] [939] [INFO] Shutting down: Master
+[2024-01-12 10:52:02 +0000] [972] [INFO] Starting gunicorn 21.2.0
+[2024-01-12 10:52:02 +0000] [972] [INFO] Listening at: http://0.0.0.0:80 (972)
+[2024-01-12 10:52:02 +0000] [972] [INFO] Using worker: sync
+[2024-01-12 10:52:02 +0000] [973] [INFO] Booting worker with pid: 973
+[2024-01-12 10:52:02 +0000] [974] [INFO] Booting worker with pid: 974
+[2024-01-12 10:52:02 +0000] [975] [INFO] Booting worker with pid: 975
+[2024-01-12 10:52:43 +0000] [972] [CRITICAL] WORKER TIMEOUT (pid:975)
+[2024-01-12 10:52:43 +0000] [975] [INFO] Worker exiting (pid: 975)
+[2024-01-12 10:52:43 +0000] [972] [ERROR] Worker (pid:975) exited with code 1
+[2024-01-12 10:52:43 +0000] [972] [ERROR] Worker (pid:975) exited with code 1.
+[2024-01-12 10:52:43 +0000] [979] [INFO] Booting worker with pid: 979
+[2024-01-12 10:54:04 +0000] [972] [CRITICAL] WORKER TIMEOUT (pid:974)
+[2024-01-12 10:54:04 +0000] [974] [INFO] Worker exiting (pid: 974)
+[2024-01-12 10:54:04 +0000] [972] [ERROR] Worker (pid:974) exited with code 1
+[2024-01-12 10:54:04 +0000] [972] [ERROR] Worker (pid:974) exited with code 1.
+[2024-01-12 10:54:04 +0000] [980] [INFO] Booting worker with pid: 980
+[2024-01-12 10:54:52 +0000] [980] [INFO] Worker exiting (pid: 980)
+[2024-01-12 10:54:52 +0000] [979] [INFO] Worker exiting (pid: 979)
+[2024-01-12 10:54:52 +0000] [973] [INFO] Worker exiting (pid: 973)
+[2024-01-12 10:54:52 +0000] [972] [INFO] Handling signal: term
+[2024-01-12 10:54:52 +0000] [972] [ERROR] Worker (pid:980) was sent SIGTERM!
+[2024-01-12 10:54:52 +0000] [972] [ERROR] Worker (pid:979) was sent SIGTERM!
+[2024-01-12 10:54:52 +0000] [972] [ERROR] Worker (pid:973) was sent SIGTERM!
+[2024-01-12 10:54:52 +0000] [972] [INFO] Shutting down: Master
